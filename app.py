@@ -19,7 +19,7 @@ st.write(" ")
 st.write(" ")
 col1,col2=st.columns(2)
 
-with col1:
+with col2:
 
     gende=st.radio("Select Gender",['Male','Female'])
     if gende=='Male':
@@ -59,7 +59,7 @@ with col1:
         
         st.header("Burnt calories is :👉 " + str(round(result)))
 
-with col2:
+with col1:
     image=Image.open('cal.png')
     edited=image.resize((2600,1950))
     st.image(edited,use_column_width=True)
