@@ -12,7 +12,7 @@ Calories_model=pickle.load(open('calories.pkl','rb'))
 
 coll1,coll2,coll3=st.columns([2,3,1])
 with coll2:
-    st.title("Calories Burnt Prediction                                         Using ML")
+    st.title("Calories Burnt Prediction Using ML")
 
 
 st.write(" ")
